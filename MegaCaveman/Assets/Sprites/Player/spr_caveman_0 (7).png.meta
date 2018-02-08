@@ -1,0 +1,1174 @@
+fileFormatVersion: 2
+guid: 8b23b7435c5b4b14ba457f4f5513e470
+timeCreated: 1517410041
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spr_caveman_0 (7)_0
+    21300002: spr_caveman_0 (7)_1
+    21300004: spr_caveman_0 (7)_2
+    21300006: spr_caveman_0 (7)_3
+    21300008: spr_caveman_0 (7)_4
+    21300010: spr_caveman_0 (7)_5
+    21300012: spr_caveman_0 (7)_6
+    21300014: spr_caveman_0 (7)_7
+    21300016: spr_caveman_0 (7)_8
+    21300018: spr_caveman_0 (7)_9
+    21300020: spr_caveman_0 (7)_10
+    21300022: spr_caveman_0 (7)_11
+    21300024: spr_caveman_0 (7)_12
+    21300026: spr_caveman_0 (7)_13
+    21300028: spr_caveman_0 (7)_14
+    21300030: spr_caveman_0 (7)_15
+    21300032: spr_caveman_0 (7)_16
+    21300034: spr_caveman_0 (7)_17
+    21300036: spr_caveman_0 (7)_18
+    21300038: spr_caveman_0 (7)_19
+    21300040: spr_caveman_0 (7)_20
+    21300042: spr_caveman_0 (7)_21
+    21300044: spr_caveman_0 (7)_22
+    21300046: spr_caveman_0 (7)_23
+    21300048: spr_caveman_0 (7)_24
+    21300050: spr_caveman_0 (7)_25
+    21300052: spr_caveman_0 (7)_26
+    21300054: spr_caveman_0 (7)_27
+    21300056: spr_caveman_0 (7)_28
+    21300058: spr_caveman_0 (7)_29
+    21300060: spr_caveman_0 (7)_30
+    21300062: spr_caveman_0 (7)_31
+    21300064: spr_caveman_0 (7)_32
+    21300066: spr_caveman_0 (7)_33
+    21300068: spr_caveman_0 (7)_34
+    21300070: spr_caveman_0 (7)_35
+    21300072: spr_caveman_0 (7)_36
+    21300074: spr_caveman_0 (7)_37
+    21300076: spr_caveman_0 (7)_38
+    21300078: spr_caveman_0 (7)_39
+    21300080: spr_caveman_0 (7)_40
+    21300082: spr_caveman_0 (7)_41
+    21300084: spr_caveman_0 (7)_42
+    21300086: spr_caveman_0 (7)_43
+    21300088: spr_caveman_0 (7)_44
+    21300090: spr_caveman_0 (7)_45
+    21300092: spr_caveman_0 (7)_46
+    21300094: spr_caveman_0 (7)_47
+    21300096: spr_caveman_0 (7)_48
+    21300098: spr_caveman_0 (7)_49
+    21300100: spr_caveman_0 (7)_50
+    21300102: spr_caveman_0 (7)_51
+    21300104: spr_caveman_0 (7)_52
+    21300106: spr_caveman_0 (7)_53
+    21300108: spr_caveman_0 (7)_54
+    21300110: spr_caveman_0 (7)_55
+    21300112: spr_caveman_0 (7)_56
+    21300114: spr_caveman_0 (7)_57
+    21300116: spr_caveman_0 (7)_58
+    21300118: spr_caveman_0 (7)_59
+    21300120: spr_caveman_0 (7)_60
+    21300122: spr_caveman_0 (7)_61
+    21300124: spr_caveman_0 (7)_62
+    21300126: spr_caveman_0 (7)_63
+    21300128: spr_caveman_0 (7)_64
+    21300130: spr_caveman_0 (7)_65
+    21300132: spr_caveman_0 (7)_66
+    21300134: spr_caveman_0 (7)_67
+    21300136: spr_caveman_0 (7)_68
+    21300138: spr_caveman_0 (7)_69
+    21300140: spr_caveman_0 (7)_70
+    21300142: spr_caveman_0 (7)_71
+    21300144: spr_caveman_0 (7)_72
+    21300146: spr_caveman_0 (7)_73
+    21300148: spr_caveman_0 (7)_74
+    21300150: spr_caveman_0 (7)_75
+    21300152: spr_caveman_0 (7)_76
+    21300154: spr_caveman_0 (7)_77
+    21300156: spr_caveman_0 (7)_78
+    21300158: spr_caveman_0 (7)_79
+    21300160: spr_caveman_0 (7)_80
+    21300162: spr_caveman_0 (7)_81
+    21300164: spr_caveman_0 (7)_82
+    21300166: spr_caveman_0 (7)_83
+    21300168: spr_caveman_0 (7)_84
+    21300170: spr_caveman_0 (7)_85
+    21300172: spr_caveman_0 (7)_86
+    21300174: spr_caveman_0 (7)_87
+    21300176: spr_caveman_0 (7)_88
+    21300178: spr_caveman_0 (7)_89
+    21300180: spr_caveman_0 (7)_90
+    21300182: spr_caveman_0 (7)_91
+    21300184: spr_caveman_0 (7)_92
+    21300186: spr_caveman_0 (7)_93
+    21300188: spr_caveman_0 (7)_94
+    21300190: spr_caveman_0 (7)_95
+    21300192: spr_caveman_0 (7)_96
+    21300194: spr_caveman_0 (7)_97
+    21300196: spr_caveman_0 (7)_98
+    21300198: spr_caveman_0 (7)_99
+    21300200: spr_caveman_0 (7)_100
+    21300202: spr_caveman_0 (7)_101
+    21300204: spr_caveman_0 (7)_102
+    21300206: spr_caveman_0 (7)_103
+    21300208: spr_caveman_0 (7)_104
+    21300210: spr_caveman_0 (7)_105
+    21300212: spr_caveman_0 (7)_106
+    21300214: spr_caveman_0 (7)_107
+    21300216: spr_caveman_0 (7)_108
+    21300218: spr_caveman_0 (7)_109
+    21300220: spr_caveman_0 (7)_110
+    21300222: spr_caveman_0 (7)_111
+    21300224: spr_caveman_0 (7)_112
+    21300226: spr_caveman_0 (7)_113
+    21300228: spr_caveman_0 (7)_114
+    21300230: spr_caveman_0 (7)_115
+    21300232: spr_caveman_0 (7)_116
+    21300234: spr_caveman_0 (7)_117
+    21300236: spr_caveman_0 (7)_118
+    21300238: spr_caveman_0 (7)_119
+    21300240: spr_caveman_0 (7)_120
+    21300242: spr_caveman_0 (7)_121
+    21300244: spr_caveman_0 (7)_122
+    21300246: spr_caveman_0 (7)_123
+    21300248: spr_caveman_0 (7)_124
+    21300250: spr_caveman_0 (7)_125
+    21300252: spr_caveman_0 (7)_126
+    21300254: spr_caveman_0 (7)_127
+    21300256: spr_caveman_0 (7)_128
+    21300258: spr_caveman_0 (7)_129
+    21300260: spr_caveman_0 (7)_130
+    21300262: spr_caveman_0 (7)_131
+    21300264: spr_caveman_0 (7)_132
+    21300266: spr_caveman_0 (7)_133
+    21300268: spr_caveman_0 (7)_134
+    21300270: spr_caveman_0 (7)_135
+    21300272: spr_caveman_0 (7)_136
+    21300274: spr_caveman_0 (7)_137
+    21300276: spr_caveman_0 (7)_138
+    21300278: spr_caveman_0 (7)_139
+    21300280: spr_caveman_0 (7)_140
+    21300282: spr_caveman_0 (7)_141
+    21300284: spr_caveman_0 (7)_142
+    21300286: spr_caveman_0 (7)_143
+    21300288: spr_caveman_0 (7)_144
+    21300290: spr_caveman_0 (7)_145
+    21300292: spr_caveman_0 (7)_146
+    21300294: spr_caveman_0 (7)_147
+    21300296: spr_caveman_0 (7)_148
+    21300298: spr_caveman_0 (7)_149
+    21300300: spr_caveman_0 (7)_150
+    21300302: spr_caveman_0 (7)_151
+    21300304: spr_caveman_0 (7)_152
+    21300306: spr_caveman_0 (7)_153
+    21300308: spr_caveman_0 (7)_154
+    21300310: spr_caveman_0 (7)_155
+    21300312: spr_caveman_0 (7)_156
+    21300314: spr_caveman_0 (7)_157
+    21300316: spr_caveman_0 (7)_158
+    21300318: spr_caveman_0 (7)_159
+    21300320: spr_caveman_0 (7)_160
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 512
+        width: 11
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 512
+        width: 8
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 512
+        width: 8
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 512
+        width: 8
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 512
+        width: 8
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 512
+        width: 10
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 479
+        width: 10
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 479
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 484
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 479
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 479
+        width: 10
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 483
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 479
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 447
+        width: 9
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 447
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 415
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 415
+        width: 15
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_34
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 415
+        width: 9
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 384
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_42
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 384
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 384
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_44
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 383
+        width: 15
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_45
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 386
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 351
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 351
+        width: 9
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_52
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 351
+        width: 19
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_58
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 351
+        width: 30
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_59
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 351
+        width: 32
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_66
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 288
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_78
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 260
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_79
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 264
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_84
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 223
+        width: 11
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_85
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 223
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_86
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 224
+        width: 11
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_87
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 224
+        width: 11
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_94
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_95
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 27
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_96
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 192
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_97
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 192
+        width: 27
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_105
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 159
+        width: 14
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_106
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 159
+        width: 15
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_107
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 159
+        width: 14
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_108
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 159
+        width: 13
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_125
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 94
+        width: 10
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_126
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 94
+        width: 13
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_127
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 94
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 29
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_139
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 68
+        width: 31
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_140
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 68
+        width: 28
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_141
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 70
+        width: 37
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_148
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 31
+        width: 17
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_149
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 13
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_150
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 31
+        width: 10
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 415
+        width: 9
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 383
+        width: 15
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 384
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 320
+        width: 16
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 356
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 127
+        width: 10
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 127
+        width: 14
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 127
+        width: 11
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 94
+        width: 10
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 94
+        width: 13
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spr_caveman_0 (7)_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 94
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

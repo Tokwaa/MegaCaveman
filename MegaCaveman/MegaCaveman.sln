@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaCaveman", "MegaCaveman.csproj", "{DC44FE37-0105-9B94-2E10-11004EDC850B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaCaveman.Plugins", "MegaCaveman.Plugins.csproj", "{DBA13C61-26CC-0EC8-0457-46D7BF358771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaCaveman.Editor", "MegaCaveman.Editor.csproj", "{B1885776-B0AD-B673-CE40-C95192BED47F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC44FE37-0105-9B94-2E10-11004EDC850B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC44FE37-0105-9B94-2E10-11004EDC850B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC44FE37-0105-9B94-2E10-11004EDC850B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC44FE37-0105-9B94-2E10-11004EDC850B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA13C61-26CC-0EC8-0457-46D7BF358771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA13C61-26CC-0EC8-0457-46D7BF358771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA13C61-26CC-0EC8-0457-46D7BF358771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA13C61-26CC-0EC8-0457-46D7BF358771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1885776-B0AD-B673-CE40-C95192BED47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1885776-B0AD-B673-CE40-C95192BED47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1885776-B0AD-B673-CE40-C95192BED47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1885776-B0AD-B673-CE40-C95192BED47F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
