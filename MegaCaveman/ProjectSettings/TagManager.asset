@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Projectile
   - Spike
+  - Collectable
+  - EggCollectable
+  - Pitfall
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - Ground
   - Player
   - PlayerProjectile
-  - 
+  - Collectable
   - 
   - 
   - 
