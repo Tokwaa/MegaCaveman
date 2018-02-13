@@ -66,10 +66,10 @@ public class PlatformerController : MonoBehaviour {
 
             if (hit)
             {
-                    float slopeAngle = Vector2.Angle(hit.normal, Vector2.up);
+                float slopeAngle = Vector2.Angle(hit.normal, Vector2.up);
                 if (i == 0)
                 {
-                        Debug.Log(string.Format("AngleHit: {0}", slopeAngle));
+                    //Debug.Log(string.Format("AngleHit: {0}", slopeAngle));
                     if(slopeAngle <= maxClimbAngle)
                     {
                         ClimbAngle(ref velocity, slopeAngle);

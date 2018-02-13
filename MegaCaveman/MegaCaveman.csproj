@@ -303,11 +303,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AerialPatrol.cs" />
     <Compile Include="Assets\BreakableContainer.cs" />
     <Compile Include="Assets\CollectableScore.cs" />
     <Compile Include="Assets\DestroyableWall.cs" />
     <Compile Include="Assets\HealthPickup.cs" />
     <Compile Include="Assets\HiddenBlock.cs" />
+    <Compile Include="Assets\PatrolEnemy.cs" />
+    <Compile Include="Assets\PatrolPattern.cs" />
     <Compile Include="Assets\Pitfall.cs" />
     <Compile Include="Assets\PlatformerController.cs" />
     <Compile Include="Assets\PlayerController.cs" />

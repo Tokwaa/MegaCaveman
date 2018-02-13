@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviour {
 
         gravity = -(2 * jumpHeight) / Mathf.Pow(jumpApexTime, 2);
         jumpVelocity = Mathf.Abs(gravity) * jumpApexTime;
-        Debug.Log(string.Format("Gravity: {0} Jump Velocity: {1}", gravity, jumpVelocity));
+        //Debug.Log(string.Format("Gravity: {0} Jump Velocity: {1}", gravity, jumpVelocity));
 
         scoreTxt.text = string.Format("Eggs: {0}", score);
 

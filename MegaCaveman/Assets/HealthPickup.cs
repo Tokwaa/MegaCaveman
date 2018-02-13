@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HealthPickup : MonoBehaviour {
 
+    public int healAmount;
 	// Use this for initialization
 	void Start () {
 		
@@ -22,7 +23,7 @@ public class HealthPickup : MonoBehaviour {
             PlayerMovement playerMovement = collidedObject.GetComponent<PlayerMovement>();
             if(playerMovement.health < playerMovement.maxHealth)
             {
-            playerMovement.ModifyHealth(1);
+            playerMovement.ModifyHealth(healAmount);
             Destroy(gameObject);
 
             }
@@ -37,7 +38,7 @@ public class HealthPickup : MonoBehaviour {
             PlayerMovement playerMovement = collidedObject.GetComponent<PlayerMovement>();
             if (playerMovement.health < playerMovement.maxHealth)
             {
-                playerMovement.ModifyHealth(1);
+                playerMovement.ModifyHealth(healAmount);
                 Destroy(gameObject);
 
             }

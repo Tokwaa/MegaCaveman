@@ -10,6 +10,8 @@ TagManager:
   - Collectable
   - EggCollectable
   - Pitfall
+  - Enemy
+  - AirPatrolPoint
   layers:
   - Default
   - TransparentFX
@@ -23,7 +25,7 @@ TagManager:
   - Player
   - PlayerProjectile
   - Collectable
-  - 
+  - Enemy
   - 
   - 
   - 
