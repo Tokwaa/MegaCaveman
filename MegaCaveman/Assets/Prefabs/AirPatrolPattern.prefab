@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4660926338335134}
   - component: {fileID: 212725788511890886}
-  - component: {fileID: 114663817826986380}
   - component: {fileID: 60678103777450094}
-  m_Layer: 0
+  - component: {fileID: 114828759257677306}
+  m_Layer: 12
   m_Name: AirPatrolPattern
   m_TagString: AirPatrolPoint
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ PolygonCollider2D:
       - {x: -0.32, y: -0.07}
       - {x: 0.35, y: -0.07}
       - {x: 0.35, y: 0.35}
---- !u!114 &114663817826986380
+--- !u!114 &114828759257677306
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,10 +79,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1382892872570698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf5eff2213447d74d878f30855b25cfd, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d93d3b11d2947f4190e97d27e46a7a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 1
 --- !u!212 &212725788511890886
 SpriteRenderer:
   m_ObjectHideFlags: 1

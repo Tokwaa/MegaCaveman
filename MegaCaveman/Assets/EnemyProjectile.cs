@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolPattern : MonoBehaviour {
-
-    public int frequency;
+public class EnemyProjectile : MonoBehaviour {
+    
 	// Use this for initialization
 	void Start () {
 		

@@ -10,7 +10,8 @@ public class AerialPatrol : MonoBehaviour {
     AudioSource audioSource;
     PlatformerController platformerController;
     Bounds bounds;
-    public LayerMask ground;
+    public LayerMask groundMask;
+    public LayerMask playerMask;
 
     //movement variables
 
@@ -24,6 +25,7 @@ public class AerialPatrol : MonoBehaviour {
 
     public int damage = 2;
     public bool canFire=true;
+    public float fireRate;
     public GameObject dropProjectileGO;
     public int health = 2;
 
@@ -88,9 +90,15 @@ public class AerialPatrol : MonoBehaviour {
         }
         velocity.y += gravity * Time.deltaTime;
         platformerController.Move(velocity * Time.deltaTime);
-        if(canfire)
+        if(canFire)
         {
+            Debug.DrawRay(transform.position, Vector2.down*5, Color.red);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 5, playerMask);
+            if(hit.collider.gameObject.CompareTag("Player"))
+            {
             StartCoroutine("FireBelow");
+
+            }
         }
 
     }
@@ -124,7 +132,7 @@ public class AerialPatrol : MonoBehaviour {
         {
             if (collision.gameObject.GetComponent<PatrolPattern>().frequency == patrolFrequency)
             {
-                SetDirection(false);
+                SetDirection(!facingRight);
                 Debug.Log(string.Format("Flip | Speed: {0}", speed));
                 Flip();
             }
@@ -169,7 +177,7 @@ public class AerialPatrol : MonoBehaviour {
     IEnumerator FireBelow()
     {
         canFire = false;
-        Instantiate()
+        
         yield return new WaitForSeconds(fireRate);
 
         canFire = true;

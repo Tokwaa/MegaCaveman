@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolPattern : MonoBehaviour {
+public class PatrolGuide : MonoBehaviour {
 
     public int frequency;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
