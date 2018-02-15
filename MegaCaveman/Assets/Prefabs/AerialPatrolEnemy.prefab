@@ -20,13 +20,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4880469224959592}
   - component: {fileID: 212946884126566676}
-  - component: {fileID: 95185551686489948}
   - component: {fileID: 61789406136752006}
   - component: {fileID: 114671324363437680}
   - component: {fileID: 58096907301709078}
   - component: {fileID: 82255333227896194}
-  - component: {fileID: 114814867140500566}
   - component: {fileID: 50490041634059224}
+  - component: {fileID: 114730363697101038}
   m_Layer: 12
   m_Name: AerialPatrolEnemy
   m_TagString: Enemy
@@ -41,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1031012877988414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.42, y: -1.33, z: -1}
+  m_LocalPosition: {x: 13.45, y: -6.35, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -61,7 +60,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -94,18 +93,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.15625}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.990625, y: 0.928125}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2, y: 0.3125}
     newSize: {x: 0.15714286, y: 0.45714286}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6304817, y: 0.928125}
+  m_Size: {x: 2, y: 0.3125}
   m_EdgeRadius: 0
 --- !u!82 &82255333227896194
 AudioSource:
@@ -187,23 +186,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!95 &95185551686489948
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1031012877988414}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4816a77c16fef4048972a3b581b03b3b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114671324363437680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -221,7 +203,7 @@ MonoBehaviour:
   GroundCollision:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &114814867140500566
+--- !u!114 &114730363697101038
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -229,15 +211,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1031012877988414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc05f7dc8340e80488ed4216bbb38508, type: 3}
+  m_Script: {fileID: 11500000, guid: 1dfcc043b9a0dce499430cce1635a9f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground:
+  groundMask:
     serializedVersion: 2
     m_Bits: 256
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 512
   speed: 1
-  gravity: -8
-  damage: 2
+  facingRight: 1
+  patrolFrequency: 1
+  gravity: 0
+  damage: 1
+  canFire: 1
+  fireRate: 0.5
+  dropProjectileGO: {fileID: 1004116952282006, guid: 78a5de9c0615a014fa8d6da421737c8c,
+    type: 2}
   health: 2
 --- !u!212 &212946884126566676
 SpriteRenderer:
@@ -273,7 +264,7 @@ SpriteRenderer:
   m_SortingLayerID: -653758751
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0f7b4415219bfbd4483b2c0a7bbb36cc, type: 3}
+  m_Sprite: {fileID: 21300118, guid: 8b23b7435c5b4b14ba457f4f5513e470, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 1

@@ -6,6 +6,7 @@ namespace UnityStandardAssets._2D
     public class Camera2DFollow : MonoBehaviour
     {
         public Transform target;
+        public Vector3 offsetAmount;
         public float damping = 1;
         public float lookAheadFactor = 3;
         public float lookAheadReturnSpeed = 0.5f;
@@ -29,7 +30,7 @@ namespace UnityStandardAssets._2D
         private void Update()
         {
             // only update lookahead pos if accelerating or changed direction
-            float xMoveDelta = (target.position - m_LastTargetPosition).x;
+            float xMoveDelta = (target.position + offsetAmount - m_LastTargetPosition).x;
 
             bool updateLookAheadTarget = Mathf.Abs(xMoveDelta) > lookAheadMoveThreshold;
 
@@ -45,7 +46,7 @@ namespace UnityStandardAssets._2D
             Vector3 aheadTargetPos = target.position + m_LookAheadPos + Vector3.forward*m_OffsetZ;
             Vector3 newPos = Vector3.SmoothDamp(transform.position, aheadTargetPos, ref m_CurrentVelocity, damping);
 
-            transform.position = newPos;
+            transform.position = newPos ;
 
             m_LastTargetPosition = target.position;
         }

@@ -18,7 +18,7 @@ public class AerialPatrol : MonoBehaviour {
     Vector2 velocity;
     public float speed = 1;
     bool shouldMove = true;
-    bool facingRight = true;
+    public bool facingRight = true;
     public int patrolFrequency;
 
     public float gravity = -20;
@@ -94,10 +94,13 @@ public class AerialPatrol : MonoBehaviour {
         {
             Debug.DrawRay(transform.position, Vector2.down*5, Color.red);
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 5, playerMask);
-            if(hit.collider.gameObject.CompareTag("Player"))
+            if (hit.collider != null)
             {
-            StartCoroutine("FireBelow");
+                if (hit.collider.gameObject.CompareTag("Player"))
+                {
+                    StartCoroutine("FireBelow");
 
+                }
             }
         }
 
@@ -126,26 +129,15 @@ public class AerialPatrol : MonoBehaviour {
 
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if(collision.gameObject.CompareTag("AirPatrolPoint"))
-        {
-            if (collision.gameObject.GetComponent<PatrolPattern>().frequency == patrolFrequency)
-            {
-                SetDirection(!facingRight);
-                Debug.Log(string.Format("Flip | Speed: {0}", speed));
-                Flip();
-            }
-        }
-    }
+    
 
-    void SetDirection(bool right)
+    public void SetDirection(bool right)
     {
         if (right) speed = Mathf.Abs(speed);
         else if (!right) speed = Mathf.Abs(speed) * -1;
     }
 
-    void Flip()
+    public void Flip()
     {
         facingRight = !facingRight;
         Vector3 localScale = gameObject.transform.localScale;
@@ -177,7 +169,9 @@ public class AerialPatrol : MonoBehaviour {
     IEnumerator FireBelow()
     {
         canFire = false;
-        
+
+        Instantiate(dropProjectileGO, transform.position, dropProjectileGO.transform.rotation);
+
         yield return new WaitForSeconds(fireRate);
 
         canFire = true;

@@ -321,6 +321,7 @@
     <Compile Include="Assets\SceneController.cs" />
     <Compile Include="Assets\SceneManager.cs" />
     <Compile Include="Assets\Spike.cs" />
+    <Compile Include="Assets\T_Rex_Boss.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Tiles\PNG Dirt\Spritesheet\sheet.xml" />

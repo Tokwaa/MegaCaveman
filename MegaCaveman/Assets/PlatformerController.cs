@@ -102,7 +102,6 @@ public class PlatformerController : MonoBehaviour {
             if(hit)
             {
 
-
                 velocity.y = (hit.distance-margin) * directionY;
                 rayLength = hit.distance;
 

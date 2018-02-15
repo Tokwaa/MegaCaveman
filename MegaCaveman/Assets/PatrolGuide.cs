@@ -14,4 +14,18 @@ public class PatrolGuide : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<AerialPatrol>())
+        {
+            AerialPatrol aerialPatrol = collision.GetComponent<AerialPatrol>();
+            if (frequency == aerialPatrol.patrolFrequency)
+            {
+                aerialPatrol.SetDirection(!aerialPatrol.facingRight);
+
+                aerialPatrol.Flip();
+            }
+        }
+    }
 }
