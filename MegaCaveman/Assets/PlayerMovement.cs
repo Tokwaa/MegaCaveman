@@ -84,6 +84,9 @@ public class PlayerMovement : MonoBehaviour {
         if (shouldMove)
         {
             Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+            //if we want to go down ignoreOneWayCollision else don't
+            platformerController.ignoreOneWayCollision = moveInput.y < 0 ? true:false;
             if (moveInput.x < 0 && facingRight)
             {
                 Flip();
@@ -114,7 +117,6 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         platformerController.Move(velocity * Time.deltaTime);
-
 	}
     private void OnTriggerEnter2D(Collider2D collision)
     {

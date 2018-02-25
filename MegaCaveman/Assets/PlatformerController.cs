@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent (typeof(BoxCollider2D))]
 public class PlatformerController : MonoBehaviour {
 
+    public bool ignoreOneWayCollision=false;
+
     public float maxClimbAngle = 80;
 
     const float margin = 0.015f;
@@ -101,12 +103,16 @@ public class PlatformerController : MonoBehaviour {
 
             if(hit)
             {
+                if (hit.collider.gameObject.GetComponent<PlatformEffector2D>() == null||(directionY==-1&&ignoreOneWayCollision==false))
+                {
+                    velocity.y = (hit.distance - margin) * directionY;
+                    rayLength = hit.distance;
 
-                velocity.y = (hit.distance-margin) * directionY;
-                rayLength = hit.distance;
-
-                collisionInfo.above = directionY == 1;
-                collisionInfo.below = directionY == -1;
+                    collisionInfo.above = directionY == 1;
+                    collisionInfo.below = directionY == -1;
+                }
+                
+                
 
             }
         }
