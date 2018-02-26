@@ -120,12 +120,7 @@ public class PlayerMovement : MonoBehaviour {
 	}
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if(collision.CompareTag("Spike")&&!damageOnCooldown)
-        //{
-        //    StartCoroutine("FreezePlayerInput",0.2f);
-        //    ModifyHealth(-1);
-        //    Knockback(collision.transform.position, 3);
-        //}
+        
 
         
     }
@@ -181,7 +176,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         audioSource.PlayOneShot(DeathTempAudioClip);
         yield return new WaitForSeconds(0.1f);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
 

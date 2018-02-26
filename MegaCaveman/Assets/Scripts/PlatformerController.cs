@@ -66,7 +66,7 @@ public class PlatformerController : MonoBehaviour {
 
             Debug.DrawRay(rayOrigin, Vector2.right * directionX * rayLength, Color.red);
 
-            if (hit)
+            if (hit&& hit.collider.gameObject.GetComponent<PlatformEffector2D>() == null)
             {
                 float slopeAngle = Vector2.Angle(hit.normal, Vector2.up);
                 if (i == 0)

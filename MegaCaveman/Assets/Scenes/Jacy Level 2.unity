@@ -73292,11 +73292,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1788380700}
     m_Modifications:
-    - target: {fileID: 114260130183739150, guid: 9d22103724021744b8a5ea9004059816,
-        type: 2}
-      propertyPath: healthContainers.Array.size
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 4528647370545146, guid: 9d22103724021744b8a5ea9004059816, type: 2}
       propertyPath: m_LocalPosition.x
       value: -17.120024
@@ -73384,21 +73379,6 @@ Prefab:
       propertyPath: healthContainers.Array.data[9]
       value: 
       objectReference: {fileID: 1400257547}
-    - target: {fileID: 114260130183739150, guid: 9d22103724021744b8a5ea9004059816,
-        type: 2}
-      propertyPath: jumpHeight
-      value: 1.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 114260130183739150, guid: 9d22103724021744b8a5ea9004059816,
-        type: 2}
-      propertyPath: walkSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114260130183739150, guid: 9d22103724021744b8a5ea9004059816,
-        type: 2}
-      propertyPath: allowedJumps
-      value: 100
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d22103724021744b8a5ea9004059816, type: 2}
   m_IsPrefabParent: 0
