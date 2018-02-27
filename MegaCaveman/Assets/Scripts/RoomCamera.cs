@@ -28,6 +28,7 @@ public class RoomCamera : MonoBehaviour {
 
         minX = Area.bounds.min.x + cameraWidth;
         maxX = Area.bounds.max.x - cameraWidth;
+
         minY = Area.bounds.min.y +cameraHeight;
         maxY = Area.bounds.max.y - cameraHeight;
 

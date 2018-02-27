@@ -6,12 +6,18 @@ public class EnemyProjectile : MonoBehaviour {
 
     public int damage;
     public Vector3 velocity;
+    public float speed=1;
     public Rigidbody2D rb;
+    public bool moveForwards=false;
+    public bool effectedByGround=true;
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = velocity;
-	}
+        if (moveForwards == false) rb.velocity = velocity * speed;
+        else rb.velocity = -transform.right*speed;
+        Destroy(gameObject,3);
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -32,7 +38,7 @@ public class EnemyProjectile : MonoBehaviour {
             }
             Destroy(gameObject);
         }
-        if (collision.gameObject.CompareTag("Ground"))
+        if (effectedByGround && collision.gameObject.CompareTag("Ground"))
         {
             Destroy(gameObject);
         }
