@@ -94,7 +94,9 @@ MonoBehaviour:
   speed: 8
   rb: {fileID: 50552513963678842}
   moveForwards: 1
+  destroyOnImpact: 1
   effectedByGround: 0
+  lifeTime: 3
 --- !u!212 &212898806241790528
 SpriteRenderer:
   m_ObjectHideFlags: 1

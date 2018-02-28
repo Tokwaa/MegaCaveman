@@ -9,13 +9,17 @@ public class EnemyProjectile : MonoBehaviour {
     public float speed=1;
     public Rigidbody2D rb;
     public bool moveForwards=false;
+    public bool destroyOnImpact = true;
     public bool effectedByGround=true;
+
+    public float lifeTime=-1;
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody2D>();
         if (moveForwards == false) rb.velocity = velocity * speed;
         else rb.velocity = -transform.right*speed;
-        Destroy(gameObject,3);
+        if(lifeTime>0) Destroy(gameObject, lifeTime);
+
 
     }
 	
@@ -36,11 +40,12 @@ public class EnemyProjectile : MonoBehaviour {
                 playerMovement.Knockback(transform.position, 8);
 
             }
-            Destroy(gameObject);
+            if(destroyOnImpact==true) Destroy(gameObject);
+
         }
         if (effectedByGround && collision.gameObject.CompareTag("Ground"))
         {
-            Destroy(gameObject);
+            if (destroyOnImpact==true) Destroy(gameObject);
         }
     }
 }

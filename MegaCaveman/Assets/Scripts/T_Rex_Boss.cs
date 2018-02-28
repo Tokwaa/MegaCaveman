@@ -27,7 +27,7 @@ public class T_Rex_Boss : MonoBehaviour {
 
     public GameObject fireBallGO;
 
-    public Transform[] meleePositions;
+    public Transform[] stompPositions;
 
 
 
@@ -66,8 +66,8 @@ public class T_Rex_Boss : MonoBehaviour {
                     {
                         canAttack = false;
                         //do a random attack on a timer (shootingAngle1,shootingAngle2,stomp)
-                        attack1 = (Attack1)Random.Range(0, 2);
-                        attack1 = Attack1.ShootingAngle1;
+                        attack1 = (Attack1)Random.Range(0, 3);
+                        
                         switch(attack1)
                         {
                             case Attack1.ShootingAngle1:
@@ -87,6 +87,7 @@ public class T_Rex_Boss : MonoBehaviour {
                             case Attack1.Stomp:
 
                                 canAttack = false;
+                                StartCoroutine("Stomp");
                                 break;
                         }
                     }
@@ -152,9 +153,65 @@ public class T_Rex_Boss : MonoBehaviour {
         }
 
 
-        yield return new WaitForSeconds(timeToComplete+5);
+        yield return new WaitForSeconds(1);
         canAttack = true;
     }
+
+    IEnumerator Stomp()
+    {
+        print("stomp");
+
+        int stompAreaIndex = Random.Range(0, 3);
+
+        float elapsedTime = 0;
+        float timeToComplete = 1;
+
+        Transform stompTarget = stompPositions[stompAreaIndex];
+        Transform stompHazard = stompTarget.GetChild(0);
+
+        //store starting variables
+        Vector3 startPosition = stompHazard.transform.position;
+        Quaternion startRotation = stompHazard.transform.rotation;
+
+
+        //move stomp down
+        while (elapsedTime < timeToComplete)
+        {
+            print(elapsedTime / timeToComplete);
+
+            //roughly lerp to correct position
+            stompHazard.transform.position = Vector3.Lerp(startPosition, stompTarget.position, (elapsedTime / timeToComplete));
+            
+            elapsedTime += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        //hard set position
+        stompHazard.transform.position = stompTarget.position;
+       
+        yield return new WaitForSeconds(1);
+
+
+         elapsedTime = 0;
+         timeToComplete = 2;
+        //bring stomp back up
+        while (elapsedTime < timeToComplete)
+        {
+            print(elapsedTime / timeToComplete);
+
+            //roughly lerp to correct position
+            stompHazard.transform.position = Vector3.Lerp(stompTarget.position, startPosition, (elapsedTime / timeToComplete));
+
+            elapsedTime += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        yield return new WaitForSeconds(1);
+
+
+        canAttack = true;
+    }
+
     private void OnCollisionEnter2D (Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -195,7 +252,7 @@ public class T_Rex_Boss : MonoBehaviour {
         if (collision.gameObject.CompareTag("Projectile"))
         {
             collision.gameObject.GetComponent<Projectile>();
-            ModifyHealth(collision.gameObject.GetComponent<Projectile>().damage * -1);
+            ModifyHealth(collision.gameObject.GetComponent<Projectile>().damage);
             Destroy(collision.gameObject);
 
 
@@ -224,10 +281,10 @@ public class T_Rex_Boss : MonoBehaviour {
     IEnumerator DamageTimer(int healthChange)
     {
 
-        hitsTaken += healthChange;        
+        hitsTaken += 1;        
         //StartCoroutine("DamageCooldownEffect");
         InvokeRepeating("DamageCooldownEffect", 0, damageBlinkRate);
-        if (hitsTaken >= 0)
+        if (hitsTaken >= maxHealth)
         {
             state = State.Dying;
         }
