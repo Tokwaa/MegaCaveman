@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/BossBattle_lvl.unity
+- path: Assets/Scenes/Jacy Level 3.unity
   isLoaded: 1
   isActive: 1
