@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour {
     public float damageBlinkRate = 0.2f;
     public bool blinkOn=false;
     public bool damageOnCooldown=false;
-
+    
     //projectile stats & variables
     public float fireRate;
     public bool canFire = true;
@@ -183,7 +183,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public void ModifyHealth(int healthChange)
     {
-        Debug.Log(string.Format("Health change: {0} | Health: {1} | Can player be damaged? {2}", healthChange, health,damageOnCooldown?"yes":"no"));
+        Debug.Log(string.Format("Health change: {0} | Health: {1} | Can player be damaged? {2}", healthChange, health,damageOnCooldown?"no":"yes"));
 
         //if player can be damaged
         if (healthChange < 0)
@@ -214,6 +214,7 @@ public class PlayerMovement : MonoBehaviour {
             {
                 healthImage.enabled = true;
             }
+
             else
             {
                 healthImage.enabled = false;
@@ -260,13 +261,8 @@ public class PlayerMovement : MonoBehaviour {
     {
         shouldMove = false;
         yield return new WaitForSeconds(freezeTime);
-        shouldMove = true;
-        
-
+        shouldMove = true;       
         
     }
-
-
-
 
 }
