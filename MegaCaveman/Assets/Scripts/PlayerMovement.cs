@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour {
 
     PlatformerController platformerController;
-    SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
 
 
     //movement variables
@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour {
     // Use this for initialization
     void Start () {
         platformerController = GetComponent<PlatformerController>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        if(spriteRenderer==null)spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
 
         UpdateHealth();

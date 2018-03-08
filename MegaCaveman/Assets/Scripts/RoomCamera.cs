@@ -6,8 +6,8 @@ public class RoomCamera : MonoBehaviour {
 
     public Collider2D Area;
 
-    float minX, minY;
-    float maxX, maxY;
+    public float minX, minY;
+    public float maxX, maxY;
     Vector2 bounds_Y;
 
     public Transform target;
@@ -19,7 +19,7 @@ public class RoomCamera : MonoBehaviour {
 	
 	
 
-    void UpdateBounds(Collider2D Area)
+    public void UpdateBounds(Collider2D Area)
     {
         float cameraHeight = Camera.main.orthographicSize;
         float cameraWidth = Camera.main.orthographicSize * Camera.main.aspect;
@@ -29,7 +29,7 @@ public class RoomCamera : MonoBehaviour {
         minX = Area.bounds.min.x + cameraWidth;
         maxX = Area.bounds.max.x - cameraWidth;
 
-        minY = Area.bounds.min.y +cameraHeight;
+        minY = Area.bounds.min.y + cameraHeight;
         maxY = Area.bounds.max.y - cameraHeight;
 
         //bounds_Max = Area.bounds.max;

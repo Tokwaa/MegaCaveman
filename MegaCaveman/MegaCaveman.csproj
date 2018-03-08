@@ -315,7 +315,6 @@
     <Compile Include="Assets\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Scripts\Spike.cs" />
     <Compile Include="Assets\Scripts\T_Rex_Boss.cs" />
-    <Compile Include="Assets\UnitTests\PlayerHealthTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Tiles\PNG Dirt\Spritesheet\sheet.xml" />
