@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PatrolGuide : MonoBehaviour {
 
-    public int frequency;
+    public int frequency;    
     // Use this for initialization
     void Start () {
 		
