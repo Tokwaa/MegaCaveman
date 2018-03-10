@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 925, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 16871
+  controlID: 35
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 16716
+  controlID: 168
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 523, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 16872
+  controlID: 36
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 523, y: 221}
   m_MaxSize: {x: 8008, y: 4021}
   vertical: 0
-  controlID: 16873
+  controlID: 37
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,8 +251,8 @@ MonoBehaviour:
     y: 0
     width: 556
     height: 521
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 279, y: 71}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 321}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 16749
+  controlID: 126
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -492,9 +492,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.432396, y: 4.0906467, z: -1.1904306}
+    m_Target: {x: 5.6593275, y: 2.523845, z: -1.1480314}
     speed: 2
-    m_Value: {x: 1.432396, y: 4.0906467, z: -1.1904306}
+    m_Value: {x: 5.6593275, y: 2.523845, z: -1.1480314}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -522,9 +522,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 21.099802
+    m_Target: 16.760818
     speed: 2
-    m_Value: 21.099802
+    m_Value: 16.760818
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -641,19 +641,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Prefabs/Enemies
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs/Enemies
   m_LastFoldersGridSize: 16
   m_LastProjectPath: F:\Projects\University\MegaCaveman\MegaCaveman
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de270000
-    m_LastClickedID: 10206
-    m_ExpandedIDs: 00000000de270000e627000070290000f2290000fa290000d02a0000402b0000702b00009a2b00009a2f000000ca9a3bffffff7f
+    m_SelectedIDs: f8290000
+    m_LastClickedID: 10744
+    m_ExpandedIDs: 00000000da270000e4270000f8290000962a0000a02a0000262b0000a82b0000242c0000602c0000de2c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -681,7 +681,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de270000e627000070290000f2290000fa290000d02a0000402b0000702b00009a2b00009a2f000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000da270000e4270000f8290000962a0000a02a0000262b0000a82b0000242c0000602c0000de2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -708,7 +708,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -765,9 +765,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 6260fcff3ab3fcfff2b9fcff98fbffff00000000482c0000a62c0000622d0000722d00007a2d0000c42d0000a8820000ae820000bc820000dc82000006830000c2830000d2830000da8300002484000028840000
+    m_SelectedIDs: 94fbffff
+    m_LastClickedID: -1132
+    m_ExpandedIDs: 9efbffff000000000c2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
