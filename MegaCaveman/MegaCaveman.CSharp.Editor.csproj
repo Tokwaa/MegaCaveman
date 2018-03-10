@@ -299,6 +299,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\SpritePivotChange.cs" />
+    <Compile Include="Assets\Scripts\Editor\CameraBoundsTest.cs" />
+    <Compile Include="Assets\Scripts\Editor\PlayerHealthTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Tiles\PNG Dirt\Spritesheet\sheet.xml" />
