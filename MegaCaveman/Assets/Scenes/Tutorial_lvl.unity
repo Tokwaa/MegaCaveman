@@ -87230,34 +87230,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1392588255}
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!1 &1770305278 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1031012877988414, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1930043961}
---- !u!114 &1770305279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1770305278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc7141d47defb2d4498a0b0914537273, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 256
-  playerMask:
-    serializedVersion: 2
-    m_Bits: 512
-  speed: 1
-  goingUp: 1
-  patrolFrequency: 0
-  gravity: 0
-  damage: 2
-  health: 2
 --- !u!4 &1781383246 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4295611813533898, guid: 5afe8e4445064524eb7836912d576fcb,
@@ -87775,83 +87747,7 @@ Prefab:
       propertyPath: m_Name
       value: UpDownPatrolEnemy (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4880469224959592, guid: cc5c862fa11bbd649ac31d84fa474c9f, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.76099515
-      objectReference: {fileID: 0}
-    - target: {fileID: 114671324363437680, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: ignoreOneWayCollision
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114671324363437680, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: maxClimbAngle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114671324363437680, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: verticalRayCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 212946884126566676, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e82c417c116014641b3fdd76240dca92,
-        type: 3}
-    - target: {fileID: 212946884126566676, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.5147059
-      objectReference: {fileID: 0}
-    - target: {fileID: 212946884126566676, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.3527251
-      objectReference: {fileID: 0}
-    - target: {fileID: 212946884126566676, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.109753475
-      objectReference: {fileID: 0}
-    - target: {fileID: 61789406136752006, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 61789406136752006, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 61789406136752006, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61789406136752006, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61789406136752006, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61789406136752006, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114671324363437680, guid: cc5c862fa11bbd649ac31d84fa474c9f,
-        type: 2}
-      propertyPath: horizontalRayCount
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114730363697101038, guid: cc5c862fa11bbd649ac31d84fa474c9f, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc5c862fa11bbd649ac31d84fa474c9f, type: 2}
   m_IsPrefabParent: 0
 --- !u!114 &1933385666 stripped
@@ -88702,13 +88598,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   canAttack: 1
+  stateRunning: 0
   hitsTaken: 0
   maxHealth: 20
   blinkOn: 0
   attack1: 0
+  attack3: 0
   firePositions: []
   fireBallGO: {fileID: 0}
   stompPositions: []
+  ObjectsToDisable: []
+  ObjectsToEnable: []
+  megaAttackObject: {fileID: 0}
+  megaAttackObjectTarget: {fileID: 0}
+  secondPhaseCameraBounds: {fileID: 0}
   spriteRenderers: []
 --- !u!4 &2138855011 stripped
 Transform:

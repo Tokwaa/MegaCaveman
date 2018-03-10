@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 1d7c420fc81595241a889ef70ffcca65
+timeCreated: 1520681010
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FLOOR-LAVA_0
+    21300002: FLOOR-LAVA_1
+    21300004: FLOOR-LAVA_2
+    21300006: FLOOR-LAVA_3
+    21300008: FLOOR-LAVA_4
+    21300010: FLOOR-LAVA_5
+    21300012: FLOOR-LAVA_6
+    21300014: FLOOR-LAVA_7
+    21300016: FLOOR-LAVA_8
+    21300018: FLOOR-LAVA_9
+    21300020: FLOOR-LAVA_10
+    21300022: FLOOR-LAVA_11
+    21300024: FLOOR-LAVA_12
+    21300026: FLOOR-LAVA_13
+    21300028: FLOOR-LAVA_14
+    21300030: FLOOR-LAVA_15
+    21300032: FLOOR-LAVA_16
+    21300034: FLOOR-LAVA_17
+    21300036: FLOOR-LAVA_18
+    21300038: FLOOR-LAVA_19
+    21300040: FLOOR-LAVA_20
+    21300042: FLOOR-LAVA_21
+    21300044: FLOOR-LAVA_22
+    21300046: FLOOR-LAVA_23
+    21300048: FLOOR-LAVA_24
+    21300050: FLOOR-LAVA_25
+    21300052: FLOOR-LAVA_26
+    21300054: FLOOR-LAVA_27
+    21300056: FLOOR-LAVA_28
+    21300058: FLOOR-LAVA_29
+    21300060: FLOOR-LAVA_30
+    21300062: FLOOR-LAVA_31
+    21300064: FLOOR-LAVA_32
+    21300066: FLOOR-LAVA_33
+    21300068: FLOOR-LAVA_34
+    21300070: FLOOR-LAVA_35
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 70
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FLOOR-LAVA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 442
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -3}
+        - {x: -31, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -6}
+        - {x: -32, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 442
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 442
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 442
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 442
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -32}
+        - {x: -32, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -33}
+        - {x: -33, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 442
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -32, y: 35}
+        - {x: -35, y: 32}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 32}
+        - {x: 32, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 372
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 372
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 372
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 35}
+        - {x: -35, y: 34}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+      physicsShape:
+      - - {x: 35, y: -35}
+        - {x: 35, y: 35}
+        - {x: -35, y: 35}
+        - {x: -35, y: -35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 372
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+      physicsShape:
+      - - {x: -32, y: 35}
+        - {x: -35, y: 32}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 32}
+        - {x: 32, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 302
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 302
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 302
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 2, y: -35}
+        - {x: 35, y: -18}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 1.8527832, y: -27.786896}
+        - {x: 22.847809, y: -14.954559}
+        - {x: 33.67514, y: 1.0404663}
+        - {x: 35, y: 32}
+        - {x: 32, y: 35}
+      tessellationDetail: 0.4
+    - serializedVersion: 2
+      name: FLOOR-LAVA_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 302
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 32, y: -35}
+        - {x: 35, y: -32}
+        - {x: 35, y: 32}
+        - {x: 32, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -30}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+        - {x: 27, y: 35}
+        - {x: -14, y: 16}
+      physicsShape:
+      - - {x: -35, y: -34}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+        - {x: 32, y: 35}
+        - {x: -7, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 232
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 232
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 232
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -13}
+        - {x: -6, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -32, y: 35}
+        - {x: -35, y: 32}
+        - {x: -34.498703, y: 8.660217}
+        - {x: -28.112396, y: -9.365631}
+        - {x: -10.145996, y: -24.848831}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0.4
+    - serializedVersion: 2
+      name: FLOOR-LAVA_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 232
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -26}
+        - {x: 15, y: 17}
+        - {x: -30, y: 35}
+      physicsShape:
+      - - {x: -32, y: 35}
+        - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -33}
+        - {x: 2, y: 13}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 162
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 162
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 162
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 35}
+        - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -26, y: -35}
+        - {x: -7, y: -25}
+        - {x: 35, y: 8}
+        - {x: 35, y: 33}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 2, y: -35}
+        - {x: 35, y: 8}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_25
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 162
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -32, y: 35}
+        - {x: -35, y: 32}
+        - {x: -35, y: -32}
+        - {x: -32, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_27
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 92
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: 31}
+        - {x: -6, y: -6}
+        - {x: 31, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: 32}
+        - {x: -15, y: 22}
+        - {x: -5, y: -3}
+        - {x: -1, y: -7}
+        - {x: 13, y: -11}
+        - {x: 19, y: -12}
+        - {x: 26, y: -25}
+        - {x: 32, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0.4
+    - serializedVersion: 2
+      name: FLOOR-LAVA_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 92
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 92
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: 7}
+        - {x: 25, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -32, y: 35}
+        - {x: -35, y: 32}
+        - {x: -35, y: 9}
+        - {x: -14, y: -5}
+        - {x: 5, y: -18}
+        - {x: 13, y: -23}
+        - {x: 15, y: -25}
+        - {x: 21, y: -29}
+        - {x: 31, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      - - {x: 25.868073, y: -32.84587}
+        - {x: 25.868073, y: -31.984802}
+        - {x: 26.15509, y: -31.984802}
+        - {x: 26.15509, y: -32.84587}
+      tessellationDetail: 0.4
+    - serializedVersion: 2
+      name: FLOOR-LAVA_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 92
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -32, y: 35}
+        - {x: -35, y: 32}
+        - {x: -35, y: -32}
+        - {x: -32, y: -35}
+        - {x: 32, y: -35}
+        - {x: 35, y: -32}
+        - {x: 35, y: 32}
+        - {x: 32, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_32
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 22
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 35}
+        - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -30, y: -35}
+        - {x: 5, y: -6}
+        - {x: 7, y: 1}
+        - {x: 35, y: 32}
+      physicsShape:
+      - - {x: 5, y: -4}
+        - {x: 12, y: 19}
+        - {x: 22, y: 25}
+        - {x: 35, y: 33}
+        - {x: 35, y: 35}
+        - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -32, y: -35}
+        - {x: -18, y: -13}
+        - {x: -5, y: -10}
+        - {x: 1, y: -7}
+      tessellationDetail: 0.4
+    - serializedVersion: 2
+      name: FLOOR-LAVA_33
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 22
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 22
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 35}
+        - {x: -35, y: -32}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      physicsShape:
+      - - {x: 33, y: 35}
+        - {x: -35, y: -33}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FLOOR-LAVA_35
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 22
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 31, y: -7}
+        - {x: 35, y: -3}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+      physicsShape:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 30, y: -7}
+        - {x: 35, y: -3}
+        - {x: 35, y: 32}
+        - {x: 32, y: 35}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -48,7 +48,6 @@ public class PlatformerController : MonoBehaviour {
 
     void Update()
     {
-
         
     }
 
@@ -82,7 +81,6 @@ public class PlatformerController : MonoBehaviour {
 
                 collisionInfo.left = directionX == -1;
                 collisionInfo.right = directionX == 1;
-
             }
         }
     }
@@ -167,7 +165,4 @@ public class PlatformerController : MonoBehaviour {
         }
     }
 
-
-
-	
 }

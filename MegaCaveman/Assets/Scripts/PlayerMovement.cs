@@ -132,6 +132,7 @@ public class PlayerMovement : MonoBehaviour {
         hitDir.y = Mathf.Clamp(hitDir.y, -5, 1);
         hitDir.Normalize();
         velocity += (Vector3)hitDir * force;
+        velocity.y = Mathf.Clamp(velocity.y, -5, 5);
     }
 
     public void ModifyScore(int scoreChange, int scoreMultiplier)
