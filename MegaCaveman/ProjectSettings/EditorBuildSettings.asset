@@ -14,9 +14,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Jacy Level 2.unity
     guid: 62de074ca276be246be5aff70b26794c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/BossBattle_lvl.unity
     guid: 5757cc71a17fcaa4181d13756ff06ee7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Jacy Level 3.unity
     guid: d673f1343d345514d8d1321546a083c8
