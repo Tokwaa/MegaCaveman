@@ -410,7 +410,7 @@ public class T_Rex_Boss : MonoBehaviour {
                 playerMovement.StartCoroutine("FreezePlayerInput", 0.2f);
                 playerMovement.ModifyHealth(-4);
                 playerMovement.Knockback(transform.position, 16);
-                playerMovement.velocity.y += 10;
+                playerMovement.velocity.y += 2;
             }
         }
         if (collision.gameObject.CompareTag("Projectile"))

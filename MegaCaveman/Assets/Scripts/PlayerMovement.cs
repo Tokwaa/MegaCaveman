@@ -129,10 +129,11 @@ public class PlayerMovement : MonoBehaviour {
     public void Knockback(Vector2 forceApplyingPosition,float force)
     {
         Vector2 hitDir = ((Vector2)transform.position - forceApplyingPosition);
-        hitDir.y = Mathf.Clamp(hitDir.y, -5, 1);
+        //hitDir.y = Mathf.Clamp(hitDir.y, -5, 1);
         hitDir.Normalize();
-        velocity += (Vector3)hitDir * force;
-        velocity.y = Mathf.Clamp(velocity.y, -5, 5);
+        Vector3 tempVelocity = velocity += ((Vector3)hitDir * force);
+        tempVelocity.y = Mathf.Clamp(tempVelocity.y, -2, 2);
+        velocity += tempVelocity;
     }
 
     public void ModifyScore(int scoreChange, int scoreMultiplier)

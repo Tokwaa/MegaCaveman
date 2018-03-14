@@ -143,7 +143,7 @@ public class PatrolEnemy : MonoBehaviour {
                 playerMovement.StartCoroutine("FreezePlayerInput", 0.2f);
                 playerMovement.ModifyHealth(-damage);
                 playerMovement.Knockback(transform.position, 8);
-                playerMovement.velocity.y += 10;
+                playerMovement.velocity.y += 2;
             }
         }
         if (collision.gameObject.CompareTag("Projectile"))
