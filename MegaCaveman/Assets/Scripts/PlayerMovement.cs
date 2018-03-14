@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour {
     public int maxHealth = 10;
     public int health=10;
     public List<Image> healthContainers = new List<Image>();
-    public float damageCooldownTime=2;
+    public float damageCooldownTime=0.5f;
     public float damageBlinkRate = 0.2f;
     public bool blinkOn=false;
     public bool damageOnCooldown=false;
@@ -104,7 +104,7 @@ public class PlayerMovement : MonoBehaviour {
                 audioSource.PlayOneShot(JumpTempAudioClip);
 
             }
-            if (Input.GetButton("Fire1"))
+            if (Input.GetButton("Fire1")&&UI_Control.isPaused==false)
             {
                 if (canFire)
                 {

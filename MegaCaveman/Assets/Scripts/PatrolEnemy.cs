@@ -156,6 +156,22 @@ public class PatrolEnemy : MonoBehaviour {
         }
     }
 
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerMovement playerMovement = collision.gameObject.GetComponent<PlayerMovement>();
+
+            if (playerMovement.damageOnCooldown == false)
+            {
+                playerMovement.StartCoroutine("FreezePlayerInput", 0.2f);
+                playerMovement.ModifyHealth(-damage);
+                playerMovement.Knockback(transform.position, 8);
+                playerMovement.velocity.y += 10;
+            }
+        }
+    }
+
     void SetDirection(bool right)
     {
         if (right) speed = Mathf.Abs(speed);
