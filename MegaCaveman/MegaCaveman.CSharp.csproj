@@ -294,6 +294,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\attackPowerup.cs" />
+    <Compile Include="Assets\EndLevelZone.cs" />
     <Compile Include="Assets\Scripts\AerialPatrol.cs" />
     <Compile Include="Assets\Scripts\BreakableContainer.cs" />
     <Compile Include="Assets\Scripts\CollectableScore.cs" />
@@ -309,14 +311,17 @@
     <Compile Include="Assets\Scripts\PlatformerController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerStatController.cs" />
+    <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\RoomCamera.cs" />
-    <Compile Include="Assets\Scripts\SceneController.cs" />
     <Compile Include="Assets\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Scripts\Spike.cs" />
     <Compile Include="Assets\Scripts\T_Rex_Boss.cs" />
+    <Compile Include="Assets\Scripts\UI_FunctionManager.cs" />
     <Compile Include="Assets\Scripts\UpDownPatrol.cs" />
     <Compile Include="Assets\Scripts\UpDownPatrolPattern.cs" />
+    <Compile Include="Assets\UI_Control.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Tiles\PNG Dirt\Spritesheet\sheet.xml" />

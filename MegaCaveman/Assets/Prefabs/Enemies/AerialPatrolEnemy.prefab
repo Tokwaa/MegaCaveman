@@ -40,8 +40,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1031012877988414}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.35, y: -15.25, z: -1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.069999, y: -2.0900002, z: -0.9921875}
   m_LocalScale: {x: 0.7357667, y: 0.71381193, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -241,11 +241,11 @@ MonoBehaviour:
     m_Bits: 512
   speed: 3
   facingRight: 1
-  patrolFrequency: 1
+  patrolFrequency: 0
   gravity: 0
   damage: 1
   canFire: 1
-  fireRate: 0.3
+  fireRate: 3
   dropProjectileGO: {fileID: 1004116952282006, guid: 78a5de9c0615a014fa8d6da421737c8c,
     type: 2}
   health: 2
