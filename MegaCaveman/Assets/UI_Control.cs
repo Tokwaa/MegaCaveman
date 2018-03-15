@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UI_Control : MonoBehaviour {
 
@@ -27,11 +28,11 @@ public class UI_Control : MonoBehaviour {
 
     public void TogglePause()
     {        
-
         pausePanel.SetActive(!isPaused);
         isPaused = !isPaused; 
         Time.timeScale = isPaused==false ? 1:0;
     }
+
 
     public void QuitGame()
     {
@@ -39,4 +40,15 @@ public class UI_Control : MonoBehaviour {
     }
 
     
+    public void ChangeScene(int targetScene)
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(targetScene);
+    }
+    public void ReloadScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 }

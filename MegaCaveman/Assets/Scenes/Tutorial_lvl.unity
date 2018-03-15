@@ -29398,6 +29398,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 58096907301709078, guid: ac245d6d4819f354ba095f8a7fe35e38,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac245d6d4819f354ba095f8a7fe35e38, type: 2}
   m_IsPrefabParent: 0
@@ -30218,7 +30223,7 @@ TilemapRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: bcbc534334fafbc428adaa0f3f363ca0, type: 2}
+  - {fileID: 2100000, guid: c59da730c56f4f548b93c6d4a92a70dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85625,7 +85630,7 @@ Prefab:
     - target: {fileID: 224512476674400782, guid: bcd32c25e51070e4885ab646d701bddb,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -161.28943
+      value: -153.82
       objectReference: {fileID: 0}
     - target: {fileID: 224936221317023514, guid: bcd32c25e51070e4885ab646d701bddb,
         type: 2}
@@ -85665,7 +85670,7 @@ Prefab:
     - target: {fileID: 224895931610984682, guid: bcd32c25e51070e4885ab646d701bddb,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -161.28941
+      value: -153.82
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bcd32c25e51070e4885ab646d701bddb, type: 2}
@@ -86662,8 +86667,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1566126212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 124.444, y: -30.237, z: 1.5175781}
-  m_LocalScale: {x: 15.028377, y: 13.5463505, z: 1}
+  m_LocalPosition: {x: 124.012, y: -30.237, z: 1.5175781}
+  m_LocalScale: {x: 15.892123, y: 13.5463505, z: 1}
   m_Children: []
   m_Father: {fileID: 80800653}
   m_RootOrder: 36
@@ -87447,6 +87452,11 @@ Prefab:
     - target: {fileID: 1031012877988414, guid: ac245d6d4819f354ba095f8a7fe35e38, type: 2}
       propertyPath: m_Name
       value: AerialPatrolEnemy (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114730363697101038, guid: ac245d6d4819f354ba095f8a7fe35e38,
+        type: 2}
+      propertyPath: fireRate
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac245d6d4819f354ba095f8a7fe35e38, type: 2}
@@ -88649,6 +88659,7 @@ MonoBehaviour:
   megaAttackObjectTarget: {fileID: 0}
   secondPhaseCameraBounds: {fileID: 0}
   spriteRenderers: []
+  GameWinScreen: {fileID: 0}
 --- !u!4 &2138855011 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4295611813533898, guid: 5afe8e4445064524eb7836912d576fcb,

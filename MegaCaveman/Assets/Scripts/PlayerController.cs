@@ -82,7 +82,8 @@ public class PlayerController : MonoBehaviour {
     IEnumerator FireProjectile()
     {
         canFire = false;
-        Instantiate(projectile_GO, spawnPos.position, projectile_GO.transform.rotation);
+        Projectile newProjectile = Instantiate(projectile_GO, spawnPos.position, projectile_GO.transform.rotation).GetComponent<Projectile>();
+        
         yield return new WaitForSeconds(fireRate);
         canFire = true;
             

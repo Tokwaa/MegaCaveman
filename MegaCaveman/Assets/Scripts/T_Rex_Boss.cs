@@ -40,7 +40,7 @@ public class T_Rex_Boss : MonoBehaviour {
 
     public SpriteRenderer[] spriteRenderers;
 
-
+    public GameObject GameWinScreen;
 
 
     // Use this for initialization
@@ -129,6 +129,7 @@ public class T_Rex_Boss : MonoBehaviour {
                 {
 
                     state = State.Dying;
+                    
                 }
                 //else attack
                 else
@@ -165,7 +166,6 @@ public class T_Rex_Boss : MonoBehaviour {
                                 StartCoroutine(ScaleObjectTo(transform, firePositions[3].localScale, 0));
                                 yield return StartCoroutine(LerpObjectTo(transform, firePositions[4].position, firePositions[4].rotation, 2f, -1));
                                 StartCoroutine(ShootingAngle(4));
-
                                 break;
                         }
                     }
@@ -176,6 +176,9 @@ public class T_Rex_Boss : MonoBehaviour {
 
             case State.Dying:
 
+                yield return new WaitForSeconds(1.5f);
+                GameWinScreen.SetActive(true);                
+                Time.timeScale = 0;
                 break;
         }
         yield return null;
@@ -394,6 +397,7 @@ public class T_Rex_Boss : MonoBehaviour {
 
         miniBlast.SetActive(false);
         yield return new WaitForSeconds(1f);
+
 
 
         canAttack = true;

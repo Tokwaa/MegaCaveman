@@ -147,8 +147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035156, y: -195}
-  m_SizeDelta: {x: 418.1, y: 176.4}
+  m_AnchoredPosition: {x: 0.000061035156, y: -150.1387}
+  m_SizeDelta: {x: 297.3, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &117218197
 MonoBehaviour:
@@ -190,8 +190,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 770255102}
-        m_MethodName: ChangeScene
-        m_Mode: 3
+        m_MethodName: ExitGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -349,8 +349,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 212}
-  m_SizeDelta: {x: 402.7, y: 227.6}
+  m_AnchoredPosition: {x: 0, y: 135.96129}
+  m_SizeDelta: {x: 286.3, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &892653416
 MonoBehaviour:
@@ -14834,8 +14834,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000024795532, y: -2}
-  m_SizeDelta: {x: 418.1, y: 176.4}
+  m_AnchoredPosition: {x: 0.000024795532, y: -14.438705}
+  m_SizeDelta: {x: 297.3, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962489128
 MonoBehaviour:

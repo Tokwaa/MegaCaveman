@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemyProjectile : MonoBehaviour {
 
     public int damage;
-    public Vector3 velocity;
-    public float speed=1;
+    public Vector3 velocity=Vector3.zero;
+    public float speed=5;
     public Rigidbody2D rb;
     public bool moveForwards=false;
     public bool destroyOnImpact = true;
@@ -14,20 +14,24 @@ public class EnemyProjectile : MonoBehaviour {
 
     public float lifeTime=-1;
     // Use this for initialization
-    void Start () {
+
+    private void Awake()
+    {
         rb = GetComponent<Rigidbody2D>();
         if (moveForwards == false) rb.velocity = velocity * speed;
         else rb.velocity = -transform.right*speed;
-        if(lifeTime>0) Destroy(gameObject, lifeTime);
-
-
+        if(lifeTime>0) Destroy(gameObject, lifeTime);        
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 
+    public void UpdateVelocity(Vector2 dir,float force)
+    {
+        rb.velocity = dir*force;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -37,7 +41,7 @@ public class EnemyProjectile : MonoBehaviour {
             {
                 playerMovement.StartCoroutine("FreezePlayerInput", 0.2f);
                 playerMovement.ModifyHealth(-damage);
-                playerMovement.Knockback(transform.position, 8);
+                playerMovement.Knockback(transform.position, 6);
 
             }
             if(destroyOnImpact==true) Destroy(gameObject);

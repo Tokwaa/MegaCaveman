@@ -9,6 +9,8 @@ public class AerialPatrol : MonoBehaviour {
     SpriteRenderer spriteRenderer;
     AudioSource audioSource;
     PlatformerController platformerController;
+    Transform player;
+
     Bounds bounds;
     public LayerMask groundMask;
     public LayerMask playerMask;
@@ -25,7 +27,7 @@ public class AerialPatrol : MonoBehaviour {
 
     public int damage = 2;
     public bool canFire=true;
-    public float fireRate;
+    public float fireRate=2;
     public GameObject dropProjectileGO;
     public int health = 2;
 
@@ -38,6 +40,7 @@ public class AerialPatrol : MonoBehaviour {
         audioSource = GetComponent<AudioSource>();
         platformerController = GetComponent<PlatformerController>();
         bounds = GetComponent<Collider2D>().bounds;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
 
     }
 
@@ -92,13 +95,15 @@ public class AerialPatrol : MonoBehaviour {
         platformerController.Move(velocity * Time.deltaTime);
         if(canFire)
         {
-            Debug.DrawRay(transform.position, Vector2.down*5, Color.red);
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 5, playerMask);
-            if (hit.collider != null)
+            Vector2 direction = player.position - transform.position;
+            direction.Normalize();
+            Debug.DrawRay(transform.position, direction*8, Color.red);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 8, playerMask);
+            if (hit.collider != null&&direction.y<0)
             {
                 if (hit.collider.gameObject.CompareTag("Player"))
                 {
-                    StartCoroutine("FireBelow");
+                    StartCoroutine("FireBelow",direction);
 
                 }
             }
@@ -166,14 +171,13 @@ public class AerialPatrol : MonoBehaviour {
         shouldMove = false;
         Destroy(gameObject);
     }
-    IEnumerator FireBelow()
+    IEnumerator FireBelow(Vector2 direction)
     {
         canFire = false;
 
-        Instantiate(dropProjectileGO, transform.position, dropProjectileGO.transform.rotation);
-
+        EnemyProjectile enemyProjectile= Instantiate(dropProjectileGO, transform.position, dropProjectileGO.transform.rotation).GetComponent<EnemyProjectile>();
+        enemyProjectile.UpdateVelocity(direction,8);
         yield return new WaitForSeconds(fireRate);
-
         canFire = true;
     }
 

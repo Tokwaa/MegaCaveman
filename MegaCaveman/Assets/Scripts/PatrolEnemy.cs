@@ -62,25 +62,25 @@ public class PatrolEnemy : MonoBehaviour {
                     {
                         //Debug.Log(string.Format("Hit Object: {0}", hit.collider.gameObject));
 
-                        Debug.Log(string.Format("Hit distance: {0}", bounds.max.x, bounds.min.y));
+                        //Debug.Log(string.Format("Hit distance: {0}", bounds.max.x, bounds.min.y));
                         if (hit.distance > 1)
                         {
                             SetDirection(false);
-                            Debug.Log(string.Format("Flip | Speed: {0}", speed));
+                            //Debug.Log(string.Format("Flip | Speed: {0}", speed));
                             Flip();
                         }
                     }
                     else
                     {
                         SetDirection(false);
-                        Debug.Log(string.Format("Flip | Speed: {0}", speed));
+                        //Debug.Log(string.Format("Flip | Speed: {0}", speed));
                         Flip();
                     }
                 }
                 else
                 {
                     SetDirection(false);
-                    Debug.Log(string.Format("Flip | Speed: {0}", speed));
+                    //Debug.Log(string.Format("Flip | Speed: {0}", speed));
                     Flip();
                 }
             }

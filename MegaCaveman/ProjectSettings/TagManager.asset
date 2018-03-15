@@ -28,7 +28,7 @@ TagManager:
   - Enemy
   - EnemyProjectile
   - BossProjectile
-  - 
+  - Boss
   - 
   - 
   - 
@@ -60,4 +60,7 @@ TagManager:
     locked: 0
   - name: Boss
     uniqueID: 3486363037
+    locked: 0
+  - name: Front
+    uniqueID: 2969122073
     locked: 0

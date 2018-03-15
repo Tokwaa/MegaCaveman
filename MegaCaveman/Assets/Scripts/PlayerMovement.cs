@@ -7,11 +7,15 @@ using UnityEngine.SceneManagement;
 
 [RequireComponent (typeof (PlatformerController))]
 
+
+
 public class PlayerMovement : MonoBehaviour {
 
     PlatformerController platformerController;
     public SpriteRenderer spriteRenderer;
+    Animator animator;
 
+    public GameObject gameoverScreen;
 
     //movement variables
 
@@ -60,6 +64,8 @@ public class PlayerMovement : MonoBehaviour {
     // Use this for initialization
     void Start () {
         platformerController = GetComponent<PlatformerController>();
+        animator = GetComponent<Animator>();
+
         if(spriteRenderer==null)spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
 
@@ -117,7 +123,14 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         platformerController.Move(velocity * Time.deltaTime);
-	}
+
+        float velocityX = velocity.x;
+        float velocityY = velocity.y;
+
+        animator.SetFloat("VelocityX", Mathf.Abs (velocityX));
+        animator.SetFloat("VelocityY", velocityY);
+        animator.SetBool("isGrounded", platformerController.collisionInfo.below);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
@@ -179,7 +192,8 @@ public class PlayerMovement : MonoBehaviour {
     {
         audioSource.PlayOneShot(DeathTempAudioClip);
         yield return new WaitForSeconds(0.1f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        gameoverScreen.SetActive(true);
+        Time.timeScale = 0;
 
     }
 
