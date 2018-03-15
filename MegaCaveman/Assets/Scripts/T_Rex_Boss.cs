@@ -175,8 +175,7 @@ public class T_Rex_Boss : MonoBehaviour {
                 break;
 
             case State.Dying:
-
-                yield return new WaitForSeconds(1.5f);
+                
                 GameWinScreen.SetActive(true);                
                 Time.timeScale = 0;
                 break;

@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 913, y: 421}
-  m_MaxSize: {x: 22008, y: 10021}
+  m_MinSize: {x: 909, y: 421}
+  m_MaxSize: {x: 22004, y: 10000}
   vertical: 0
-  controlID: 31173
+  controlID: 11630
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -56,13 +56,13 @@ MonoBehaviour:
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -601.5
-    m_HBaseRangeMax: 601.5
+    m_HBaseRangeMin: -162.66667
+    m_HBaseRangeMax: 162.66667
     m_VBaseRangeMin: -91.5
     m_VBaseRangeMax: 91.5
     m_HAllowExceedBaseRangeMin: 1
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 31064
+  controlID: 11611
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,14 +180,14 @@ MonoBehaviour:
     height: 705
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 0
+  lastFramingTime: 1119.8285603596285
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.4922185, y: 1.8534876, z: 0.107421875}
+    m_Target: {x: 1.823516, y: 3.1873133, z: -0.06640625}
     speed: 2
-    m_Value: {x: 6.4922185, y: 1.8534876, z: 0.107421875}
+    m_Value: {x: 1.823516, y: 3.1873133, z: -0.06640625}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -215,9 +215,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.793618
+    m_Target: 14.571931
     speed: 2
-    m_Value: 11.793618
+    m_Value: 14.571931
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 726
     width: 1205
     height: 221
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06350000
+    m_SelectedIDs: 52370000
     m_LastClickedID: 0
-    m_ExpandedIDs: fe98f4ff76ebf4ff7aebf4ff82ebf4ff86ebf4ff90ebf4ff92ebf4ffa8ebf4ff4aecf4ffa007f5ffa407f5ffba07f5ffbc07f5ff7a08f5ff9e21f5ff102bf5ffd042f5ff384cf5ffe84cf5ff5a50f5ffea55f5ffee55f5fff455f5ffca98f5ff6c99f5ffde9cf5ff6ea2f5ff72a2f5ff78a2f5ff12bef5ffe8c3f5ffdac4f5ff50c8f5ffe4cdf5ff0cd1f5ff14d1f5ff8ad4f5ffc4e9f5ff60a8f7ff74aef9ff00000000d68401007685010084a50100
+    m_ExpandedIDs: aeaefdffdeb5fdff38bbfdff24c0fdff5ecdfdff1ed3fdfff4d6fdffbedbfdff74e3fdff00e9fdffcaf0fdff0828feffa43cfeffb25afeffea7dfeffa2a4feffc8adfeff2ab2feffc4b8feff2629ffff7a29ffff8a43ffffaa78ffff3c7bffff6a98ffff4ab9ffffccdaffff64e0ffff000000004a3e000060460000a88b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -326,9 +326,10 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 7}
     m_SearchString: 
-  m_ExpandedScenes: []
+  m_ExpandedScenes:
+  - BossBattle_lvl
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -350,8 +351,8 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 947
-  m_MinSize: {x: 234, y: 271}
-  m_MaxSize: {x: 10004, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -398,17 +399,17 @@ MonoBehaviour:
     m_Folders:
     - Assets/Scenes
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Steven\Documents\GitHub\MegaCaveman\MegaCaveman
+  - Assets/Scripts
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: F:\Projects\University\MegaCaveman\MegaCaveman
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e360000
-    m_LastClickedID: 13950
-    m_ExpandedIDs: 00000000e2340000e83400001a3600002c360000383600005c36000074360000123700005437000000ca9a3bffffff7f
+    m_SelectedIDs: 03ca9a3b
+    m_LastClickedID: 1000000003
+    m_ExpandedIDs: 000000004c350000523500008a3600009a360000a6360000ca360000e236000086370000c837000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -436,7 +437,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2340000e83400001a3600002c360000383600005c36000074360000123700005437000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000004c350000523500008a3600009a360000a6360000ca360000e236000086370000c837000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -461,8 +462,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 06350000
-    m_LastClickedInstanceID: 13574
+    m_SelectedInstanceIDs: 52370000
+    m_LastClickedInstanceID: 14162
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 24360000
     m_RenameOverlay:
@@ -480,7 +481,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -489,7 +490,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 16
   m_DirectoriesAreaWidth: 110
 --- !u!114 &11
 MonoBehaviour:
